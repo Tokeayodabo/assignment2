@@ -1,0 +1,126 @@
+body{
+    margin: 0
+}
+
+.nav{
+    background-color: red;
+    font-size: 30px;
+    overflow: hidden;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+}
+
+
+.nav a{
+   float:right;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.landing{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding: 0;
+    position: relative;
+}
+
+.landing div{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title{
+    font-size: 100px;
+}
+
+.subtitle{
+    font-size: 40px;
+    color: red;
+}
+
+
+
+.about-me{
+    background-color: blue;
+}
+
+
+
+h3{
+    margin: 0
+}
+
+.about-me-row{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.about-me-heading{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+.contact{
+    height:100vh;
+    background-color: darkblue;
+    text-align: center;
+    color:white;
+    position: relative;
+}
+
+.contact-subsection{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact h3{
+    font-size: 50px;
+
+}
+
+.contact a{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact-links{
+    padding-top: 2%;
+    text-align: center;
+    
+}
+
+.foot{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border-top: red 3px solid;
+}
+
+.foot h3{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
